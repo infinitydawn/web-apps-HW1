@@ -1,0 +1,41 @@
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    gap: 10px;
+    height: 100vh;
+    width: 100wh;
+}
+
+.box{
+    padding: 75px 50px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    position: relative; /* Add this */
+    
+}
+
+.container .box:hover{
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.container :last-child{
+    align-items: end;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.letter {
+    position: absolute;
+    top: 0; 
+    left: 10px; 
+}

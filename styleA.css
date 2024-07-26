@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100wh;
+}
+
+.box{
+    padding: 100px;
+    background-color: #dfe1e7;
+    border-top: 1px solid #687291;
+    font-family: Tahoma;
+    font-size: 40px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.box .letter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    left: 44%
+}
+
+.container :nth-child(even){
+    background-color: #eeeff2;
+}
+
+.container .box:last-child{
+    background-color: #687291;
+    border: 4px solid black;
+    position: relative;
+    
+}
+
+.container .box:last-child .letter{
+    top:40%
+}
+
